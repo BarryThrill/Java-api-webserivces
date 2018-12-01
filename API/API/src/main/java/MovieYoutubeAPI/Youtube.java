@@ -21,7 +21,7 @@ public class Youtube {
 			/**
 			 * Få tillkomst att använda sig utav youtubes databas med länk, api och query.
 			 */
-			response = Unirest.get("https://www.googleapis.com/youtube/v3/search?key=AIzaSyAgu1BSuCKS_-J8AI_QwD3EX7oG_PSCGXQ&part=snippet")
+			response = Unirest.get("https://www.googleapis.com/youtube/v3/search?key=KEY&part=snippet")
 					.queryString("q", trailer + " trailer")
 					.asJson();
 
