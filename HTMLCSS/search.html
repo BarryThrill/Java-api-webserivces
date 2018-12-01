@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/search/favicon.ico" rel="icon" type="image/x-icon" />
+<title>Track TV</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body>
+
+<div id="page">
+
+	<div id="banner">
+   <a href="search.html"> <h1>Track TV</h1> </a>
+   <h2>– Happy searching</h2>
+   </div>
+    
+    <form id="searchForm" method="post">
+		<fieldset>
+        
+           	<input id="s" type="text" />
+            
+            <input type="submit" value="Submit" id="submitButton" />
+            
+            <div id="searchInContainer">
+                <input type="radio" name="check" value="site" id="SearchMovie" checked />
+                <label for="SearchMovie" id="siteNameLabel">Search movie</label>
+                
+                <input type="radio" name="check" value="web" id="SearchSeries" />
+                <label for="SearchSeries">Search series</label>
+			</div>
+
+        </fieldset>
+    </form>
+	
+	<div id="lblerror"></div>
+	
+<aside>
+<div id="poster"></div>
+	<div class="description">
+		<div id="title_text"> </div>
+		<div id="title"></div>
+		<div id="release_text"></div>
+		<div id="release"></div>
+		<div id="vote_text"></div>
+		<div id="vote"></div>
+		<div id="overview_text"></div>
+		<div id="overview"></div>
+		
+	</div>
+	
+<div id="trailer"></div>
+
+<div class="clearfix" </div> 
+
+</aside>
+
+
+</div>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="script.js"></script>
+
+
+</html>
