@@ -21,7 +21,7 @@ public class MovieDataBase {
 			 */
 			
 			response = Unirest.get("http://api.themoviedb.org/3/search/movie?api_key=8fdc08330620170a06de56dae1c5c692&query=Dope")
-					.queryString("api_key", "8fdc08330620170a06de56dae1c5c692")
+					.queryString("api_key", "")
 					.queryString("query", filmtitel)
 					.asJson();
 
